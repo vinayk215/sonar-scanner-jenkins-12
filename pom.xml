@@ -350,6 +350,14 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version> <!-- Specify the desired version -->
+                <configuration>
+                    <!-- Compiler configuration, if needed -->
+                </configuration>
+      </plugin>
     </plugins>
   </build>
   <profiles>
